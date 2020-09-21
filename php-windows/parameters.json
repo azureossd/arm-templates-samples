@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "subscription-id"
+        },
+        "name": {
+            "value": "webappname"
+        },
+        "location": {
+            "value": "location"
+        },
+        "hostingPlanName": {
+            "value": "appServiceplan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "resourcegroup"
+        },
+        "currentStack": {
+            "value": "php"
+        },
+        "phpVersion": {
+            "value": "7.3"
+        }
+    }
+}
