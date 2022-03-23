@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "someappservicename"
+        },
+        "location": {
+            "value": "somelocation"
+        },
+        "appServicePlanName": {
+            "value": "someappserviceplan"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "windowsFxVersion": {
+            "value": "DOCKER|yourcontainerregistry.azurecr.io/yourimage:yourtag"
+        },
+        "dockerRegistryUrl": {
+            "value": "https://yourcontainerregistry.azurecr.io"
+        },
+        "dockerRegistryUsername": {
+            "value": "yourcontainerregistry"
+        },
+        "dockerRegistryPassword": {
+            "value": "password"
+        }
+    }
+}
