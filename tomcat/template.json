@@ -30,7 +30,7 @@
                 "name": "[parameters('name')]",
                 "siteConfig": {
                     "appSettings": [],
-                    "linuxFxVersion": "NODE|18-lts",
+                    "linuxFxVersion": "TOMCAT|9.0-java11",
                     "alwaysOn": true
                 },
                 "serverFarmId": "[concat('/subscriptions/', parameters('subscriptionId'),'/resourcegroups/', parameters('serverFarmResourceGroup'), '/providers/Microsoft.Web/serverfarms/', parameters('appServicePlanName'))]",

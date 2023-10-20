@@ -23,7 +23,7 @@
   },
   "resources": [
     {
-      "apiVersion": "2020-06-01",
+      "apiVersion": "2021-02-01",
       "name": "[variables('hostingPlanName')]",
       "type": "Microsoft.Web/serverfarms",
       "location": "[resourceGroup().location]",
@@ -65,3 +65,5 @@
     }
   ]
 }
+
+az webapp config storage-account add --resource-group ansalemo-rg --name ansalemo-byos-test --custom-id byos --storage-type AzureFiles --share-name ansalemo-file-share --account-name ansalemostorageaccount --access-key "rJ33YiOAlrOPSouDY9W4eXqitz2GZBelC1uDAM4jw/AUOl9mGM7tcGEWCvpxaKv1Ppf5Lpsbb1k8+AStJyxC/g==" --mount-path /home
