@@ -30,7 +30,7 @@
                 "name": "[parameters('name')]",
                 "siteConfig": {
                     "appSettings": [],
-                    "linuxFxVersion": "PHP|8.2",
+                    "linuxFxVersion": "PHP|8.5",
                     "alwaysOn": true
                 },
                 "serverFarmId": "[concat('/subscriptions/', parameters('subscriptionId'),'/resourcegroups/', parameters('serverFarmResourceGroup'), '/providers/Microsoft.Web/serverfarms/', parameters('appServicePlanName'))]",

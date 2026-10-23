@@ -6,7 +6,7 @@ A repro containing various ARM templates that can be used to interact with resou
 - `nodejs` - Example to deploy a App Service Linux - Node 18 
 - `java-se` - Example to deploy a App Service Linux - Java 17 
 - `tomcat` - Example to deploy a App Service Linux - Java 11 with Tomcat 9 
-- `php` - Example to deploy a App Service Linux - PHP 8.2
+- `php` - Example to deploy a App Service Linux - PHP 8.5
 - `go` - Example to deploy a App Service Linux - Go 1.19
 - `php-windows` - Contains App Service (Windows) PHP specific ARM samples
 - `python` - Contains Python ARM samples
